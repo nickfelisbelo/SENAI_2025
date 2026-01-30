@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: rgb(216, 48, 48);
+    background-image: url("logost.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+header{
+    background-color: rgba(1, 0, 0, 0.7);
+    padding: 10px 0;
+    margin: 20px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+ol{
+    text-align: left;
+}
+nav ol{
+    text-align: center;
+}
+nav ol li{
+    list-style: none;
+    display: inline;
+    text-align: center;
+    margin: 10px ;
+}
+nav ol a{
+    color: whitesmoke;
+    text-decoration: none;
+    text-align: center;
+}
+form fieldset{
+    width: 800px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 15px;
+}
+form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+button{
+    width: 80px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 3px;
+}
+
+button:hover{
+    transform: rgb(111, 9, 9);
+}
+fieldset{
+    font-size: 1.5rem;
+    color: rgb(39, 5, 5);
+}

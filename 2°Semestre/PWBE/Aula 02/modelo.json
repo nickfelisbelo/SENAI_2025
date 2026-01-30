@@ -1,0 +1,12 @@
+[
+    {
+        "nome": "Fulano",
+        "documento": "12345678",
+        "idade": 50,
+        "endereço": "Rua Saudade",
+        "habilitado": true
+    },
+    {
+        "nome": "Ciclano"
+    }
+]

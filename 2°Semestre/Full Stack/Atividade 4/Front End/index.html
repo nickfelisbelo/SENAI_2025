@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oficinas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Oficinas</h1>
+        <nav>
+            <ul>
+                <li><a href="#inscricao">Inscrever-se</a></li>
+                <li><a href="#lista">Lista de Oficinas</a></li>
+            </ul>
+        </nav>
+        <h4>Outras Páginas:</h4>
+            <nav>
+                <ul>
+                    <li><a href="pagina2.html">Alunos</a></li>
+                    <li><a href="pagina3.html">Inscrições</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id="inscricao">
+            <h2>Formulário de Inscrição</h2>
+            <br>
+            <form action="" method="">
+                <h3>Dados do estudante</h3>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" required/>
+                <br>
+                <label for="vag">Vagas</label><br>
+                <input type="text" id="vag" required/>
+                <br>
+                <label for="ins">Total de Inscrições</label><br>
+                <input type="text" id="ins" required/>
+                <br>
+                <button onclick="Enviar()">Enviar</button>
+                <script>
+                    function Enviar(){
+                        window.alert("Enviado");
+                    }
+                </script>
+            </form>
+        </section>
+        <section id="lista">
+            <h2>Lista</h2>
+            <div class="cards">
+                <div class="card">
+                    <p>ID: 1</p>
+                    <p>Nome: Clube de Teatro</p>
+                    <p>Vagas: 7</p>
+                    <p>Total de inscrições: 15</p>
+                </div>
+                <div class="card">
+                    <p>ID: 2</p>
+                    <p>Nome: Clube de Xadrez</p>
+                    <p>Vagas: 3</p>
+                    <p>Total de inscrições: 25</p>
+                </div>
+                <div class="card">
+                    <p>ID: 3</p>
+                    <p>Nome: Clube de Balé</p>
+                    <p>Vagas: 6</p>
+                    <p>Total de inscrições: 10</p></div>
+                <div class="card">
+                    <p>ID: 4</p>
+                    <p>Nome: Clube de Dama</p>
+                    <p>Vagas: 2</p>
+                    <p>Total de inscrições: 5</p></div>
+                <div class="card">
+                    <p>ID: 5</p>
+                    <p>Nome: Clube de Tênis de Mesa</p>
+                    <p>Vagas: 1</p>
+                    <p>Total de inscrições: 12</p></div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

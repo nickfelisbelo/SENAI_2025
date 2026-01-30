@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alunos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Alunos</h1>
+        <nav>
+            <ul>
+                <li><a href="#inscricao">Inscrever-se</a></li>
+                <li><a href="#lista">Lista de Alunos</a></li>
+            </ul>
+        </nav>
+        <h4>Outras Páginas:</h4>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Oficinas</a></li>
+                    <li><a href="pagina3.html">Inscrições</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id="inscricao">
+            <h2>Formulário de Inscrição</h2>
+            <br>
+            <form action="" method="">
+                <h3>Dados do estudante</h3>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" required/>
+                <br>
+                <label for="tur">Turma</label><br>
+                <input type="text" id="tur" required/>
+                <br>
+                <label for="tot">Total de participação nas Oficinas</label><br>
+                <input type="number" id="tot" required/>
+                <br>
+                <button onclick="Enviar()">Enviar</button>
+                <script>
+                    function Enviar(){
+                        window.alert("Enviado");
+                    }
+                </script>
+            </form>
+        </section>
+        <section id="lista">
+            <h2>Lista</h2>
+            <div class="cards">
+                <div class="card">
+                    <p>ID: 1</p>
+                    <p>Nome: Nicollas</p>
+                    <p>Turma: 2° B</p>
+                    <p>Total de participação nas Oficinas: 2</p>
+                </div>
+                <div class="card">
+                    <p>ID: 2</p>
+                    <p>Nome: Mathias</p>
+                    <p>Turma: 1° A</p>
+                    <p>Total de participação nas Oficinas: 3</p>
+                </div>
+                <div class="card">
+                    <p>ID: 3</p>
+                    <p>Nome: Leticia</p>
+                    <p>Turma: 2° A</p>
+                    <p>Total de participação nas Oficinas: 2</p>
+                </div>
+                <div class="card">
+                    <p>ID: 4</p>
+                    <p>Nome: Natalia</p>
+                    <p>Turma: 3° A</p>
+                    <p>Total de participação nas Oficinas: 1</p>    
+                </div>
+                <div class="card">
+                    <p>ID: 5</p>
+                    <p>Nome: Pietra</p>
+                    <p>Turma: 1° B</p>
+                    <p>Total de participação nas Oficinas: 0</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

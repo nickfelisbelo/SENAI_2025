@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscricoes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Inscrições</h1>
+        <nav>
+            <ul>
+                <li><a href="#inscricao">Inscrever-se</a></li>
+                <li><a href="#lista">Lista de Inscrições</a></li>
+            </ul>
+        </nav>
+        <h4>Outras Páginas:</h4>
+            <nav>
+                <ul>
+                    <li><a href="pagina2.html">Alunos</a></li>
+                    <li><a href="index.html">Oficinas</a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+        <section id="inscricao">
+            <h2>Formulário de Inscrição</h2>
+            <br>
+            <form action="" method="">
+                <h3>Dados do estudante</h3>
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" required/>
+                <br>
+                <label for="tur">Turma</label><br>
+                <input type="text" id="tur" required/>
+                <br>
+                <label for="tot">Total de participação nas Oficinas</label><br>
+                <input type="number" id="tot" required/>
+                <br>
+                <button onclick="Enviar()">Enviar</button>
+                <script>
+                    function Enviar(){
+                        window.alert("Enviado");
+                    }
+                </script>
+            </form>
+        </section>
+        <section id="lista">
+            <h2>Lista</h2>
+            <div class="cards">
+                <div class="card">
+                    <p>ID: 1</p>
+                    <p>Data: 12/06/2022</p>
+                    <p>Nome do Aluno: Nicollas</p>
+                    <p>Nome da Oficina: Xadrez</p>
+                </div>
+                <div class="card">
+                    <p>ID: 2</p>
+                    <p>Data: 13/09/2023</p>
+                    <p>Nome do Aluno: Nicollas</p>
+                    <p>Nome da Oficina: Dama</p>
+                </div>
+                <div class="card">
+                    <p>ID: 3</p>
+                    <p>Data: 11/06/2024</p>
+                    <p>Nome do Aluno: Natalia</p>
+                    <p>Nome da Oficina: Balé</p>
+                </div>
+                <div class="card">
+                    <p>ID: 4</p>
+                    <p>Data: 23/09/2023</p>
+                    <p>Nome do Aluno: Pietra</p>
+                    <p>Nome da Oficina: Balé</p>  
+                </div>
+                <div class="card">
+                    <p>ID: 5</p>
+                    <p>Data: 21/08/2024</p>
+                    <p>Nome do Aluno: Leticia</p>
+                    <p>Nome da Oficina: Jogo da Memória</p>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

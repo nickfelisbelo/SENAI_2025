@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <h1>LOGIN</h1>
+    <p>
+        <form id="cadastro">
+            <fieldset>
+                <legend><font color="black">Crie sua conta</font></legend> <center>
+                <font color="black">
+                        <label for="nome">Insira seu nome</label> <br>
+                        <input type="text" id="nome" placeholder="Insira seu nome completo" required/> <br>
+                        <label for="telefone">Insira seu n° de Telefone</label> <br>
+                        <input type="tel" id="telefone" placeholder="Insira seu número de telefone" required> <br>
+                        <label for="email">Digite seu E-mail</label> <br>
+                        <input type="email" id="email" placeholder="Insira seu número de E-mail" required/> <br>
+                        <label for="senha">Digite sua senha</label> <br>
+                        <input type="text" id="senha" placeholder="Digite uma senha" required/>
+                </font><br><br><br>
+                <button type="button" id="botaoEnviar">Enviar</button>
+                <script>
+                    document.getElementById('cadastro').addEventListener('click', function() {
+                    var formulario = document.getElementById('cadastro');
+
+                    if (formulario.checkValidity()) {
+                    window.location.href = 'paginainicial.html';
+                    }
+                });
+                </script>
+                </center>
+            </fieldset>
+        </form>
+    </p>
+</body>
+</html>

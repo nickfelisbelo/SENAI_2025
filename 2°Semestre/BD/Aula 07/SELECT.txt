@@ -1,0 +1,28 @@
+SELECT 
+*, 
+(quantidade * preco_unitario) As "valor_final"
+From pedidos 
+WHERE
+MONTH(data_pedido) = 3 
+AND
+DAY(data_pedido) = 10;
+
+
+
+SELECT 
+SUM(quantidade) AS "quantidade_total", 
+SUM(quantidade * preco_unitario) AS "faturamento",
+AVG(quantidade * preco_unitario) AS "preco_medio",
+MAX(quantidade * preco_unitario) AS "maior_venda",
+MIN(quantidade * preco_unitario) AS "menor_venda"
+From pedidos
+WHERE produto =  "arroz";
+
+/*
+SUM() = Soma
+AVG() = Média
+MAX() = Máximo
+MIN() = Minimo
+*/
+
+SELECT COUNT(DISTINCT produto) AS "produtos_vendidos" FROM pedidos;

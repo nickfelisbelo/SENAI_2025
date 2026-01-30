@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+ul li{
+    list-style: none;
+    color: black;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aluno{
+    border: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    background-color: greenyellow;
+}
+
+.exemplo ul{
+    border: 1px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}

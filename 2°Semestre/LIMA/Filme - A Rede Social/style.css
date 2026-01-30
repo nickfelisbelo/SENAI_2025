@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(12, 24, 187);
+    color: white;
+}
+header{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex inline;
+    gap: 10px;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: rgb(124, 164, 225);
+    cursor: pointer;
+}
+
+
+section{
+    padding: 40px;
+    margin: 10px;
+    background: rgba(255, 255, 255, 0.467);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+}
+
+h2{
+    color: rgb(0, 0, 0);
+}
+iframe{
+    width: auto;
+    height: 150px;
+    display: flex;
+}
+
+.cards{
+    display: flex;
+    gap: 1rem;
+}
+
+.card{
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    transform: translateY(-5px);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(59, 5, 255, 0.849));
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card2{
+    border-radius: 8px;
+    padding: 1rem;
+    width: 100%;
+    box-shadow: 0 4px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.card2:hover{
+    transform: scale(1.05);
+    transform: translateY(-5px);
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(59, 5, 255, 0.849));
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card img{
+    width: 200px;
+    height: 200px;
+    border-radius: 3px;
+}
+
+.card2 img{
+    height: 400px;
+    width: auto;
+    border-radius: 3px;
+}
+
+fieldset{
+    background: linear-gradient(black, blue);
+    border-radius: 15px;
+    align-items: center;
+    text-align: center;
+}
+input{
+    width: 800px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: whitesmoke;
+}
+header{
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    font-size: 28px;
+}
+footer{
+    background: #2c3e50;
+    text-align: center;
+    color: #fff;
+    padding: 15px;
+    font-size: 14px;
+    margin: 20px;
+}
+img{
+    width: 450px;
+    height: auto;
+}
+.card{
+    background: linear-gradient(rgba(124, 124, 124, 0.233), whitesmoke);
+    border-radius: 8px;
+    padding: 0rem;
+    width: 100%;
+    box-shadow: 0 4px 0px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: left;
+    display: flex inline
+}
+button{
+    width: 200px;
+    height: 30px;
+    border-radius: 3px;
+    background-color: #41607f;
+    color: #fff;
+}

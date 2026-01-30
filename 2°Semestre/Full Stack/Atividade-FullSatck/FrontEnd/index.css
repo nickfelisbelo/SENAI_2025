@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.cartao{
+    min-height: 12vh;
+    width: 40vw;
+    border: solid 1px;
+    border-radius: 3px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 4.8855vw;
+    background-color: aliceblue;
+}
+
+.cartao:hover{
+    background-color: rgb(210, 228, 244);
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.cartoes{
+    display: flex inline;
+    align-items: center;
+    justify-content: center;
+}

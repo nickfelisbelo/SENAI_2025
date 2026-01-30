@@ -1,0 +1,43 @@
+loja prova
+
+Sistema deve conter:
+
+- cadastro de clientes / Completo
+- Produtos Vendidos / Completo
+- Registro de pedidos 
+
+Clientes:
++ nome completo / Completo
++ email / Completo
++ cpf / Completo
++ telefone / Completo
++ endereço / Completo
+
+* Buscar cliente por cpf(mostrar seus dados: endereço, telefone, etc) / Completo
+
+Produtos:
++ nome / Completo
++ descrição / Completo
++ preco / Completo
++ quantidade / Completo
++ código / Completo
+
+* Atualizar preco de um produto ou corrigir a quantidade / Completo
+* Consultar dados de um produto pelo código(id) / Completo
+
+
+Pedidos:
++ Quem comprou - Chave estrangeira
++ Produto Comprado - Chave estrangeira
++ Quantidade - Chave estrangeira
++ Data
++ status
++ id
+
+* Atualizar status (manualmente)
+* Listar todos pedidos
+* Consultar pedido pelo seu código(id)
+
+Detalhamento:
+
+Pedidos: Não é permitido comprar em quantidade <= 0

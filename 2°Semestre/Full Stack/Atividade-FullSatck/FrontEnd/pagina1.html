@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clinica Vida+</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <h1>Clínica Vida+</h1>
+    </header>
+    <div class="container">
+        <form action="">
+            <label for="categoria">Especialidade</label>
+            <select name="categoria" id="categoria">
+                <option value="0" selected>Todas</option>
+                <option value="Cardiologia">Cardiologia</option>
+                <option value="Clinico">Clinico Geral</option>
+                <option value="Ortopedia">Ortopedia</option>
+            </select>
+            <button id="filtrar">Filtrar</button>
+        </form>
+        <main>
+            <div class="box">
+                <b>
+                <p class="id">ID da consulta</p>
+                <p class="paciente">Nome do paciente</p>
+                <p class="telefone">Telefone</p>
+                <p class="medico">Nome do médico</p>
+                <p class="especialidade">Especialidade</p>
+                <p class="data">Data da Consulta</p>
+                <p class="hora">Horário da consulta</p>
+                <p class="status">Status</p>
+                </b>
+            </div>
+        </main>
+    </div>
+    <script src="script1.js"></script>
+</body>
+</html>

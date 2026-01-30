@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Elaborado</title>
+</head>
+<body>
+    <h1>Formulário</h1>
+    <br>
+    <form action="" method="">
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required/>
+        <br>
+        <label for="end">Endereço:</label>
+        <input type="text" id="end" required/>
+        <br>
+        <label for="cid">Cidade:</label>
+        <input type="text" id="cid" />
+        <br>
+        <label for="Estado">Estado:</label>
+        <select id="Estado">
+            <option>São Paulo</option>
+            <option>Rio de Janeiro</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend>Dados Profissionais</legend>
+        <p>Natureza do Cargo <br>
+        <input type="radio" id="ger" name="Natureza do Cargo" />
+        <label for="ger" name="Natureza do Cargo">Gerência</label>
+        <input type="radio" id="fin" name="Natureza do Cargo" />
+        <label for="fin" name="Natureza do Cargo">Financeiro</label>
+        <input type="radio" id="rec" name="Natureza do Cargo" />
+        <label for="rec" name="Natureza do Cargo">Recepção</label>
+        <input type="radio" id="adm" name="Natureza do Cargo" />
+        <label for="adm" name="Natureza do Cargo">Administrativo</label>
+        <input type="radio" id="jur" name="Natureza do Cargo" />
+        <label for="jur" name="Natureza do Cargo">Gerência</label>
+        </p>
+        <p>Mini-curriculo:
+            <textarea></textarea>
+        </p>
+    </fieldset>
+    <button onclick="Enviar()">Enviar</button>
+    <script>
+        function Enviar(){
+            window.alert("Enviado");
+        }
+    </script>
+    <input type="reset" value="Limpar" />
+    </form>
+</body>
+</html>

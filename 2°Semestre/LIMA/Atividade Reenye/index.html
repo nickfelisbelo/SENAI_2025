@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <select name="status" id="status">
+        <option value="0" selected>Todas</option>
+        <option value="Aberto">Aberto</option>
+        <option value="Em andamento">Em Andamento</option>
+        <option value="Resolvido">Resolvido</option>
+    </select>
+    <button id="buscar">Buscar</button>
+    <input id="pesquisar" type="text" placeholder="Pesquisar"/>
+    <input id="buscarData" type="date" />
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Titulo</th>
+                    <th>Solicitante</th>
+                    <th>Prioridade</th>
+                    <th>Status</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="lista">
+                    <th id="idChamado">0</th>
+                    <th id="titulo">Falta de férias</th>
+                    <th id="solicitante">Nicollas</th>
+                    <th id="prioridade">Alta</th>
+                    <th id="status2">Em Andamento</th>
+                    <th id="data">2025-09-14</th>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
